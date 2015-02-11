@@ -16,3 +16,7 @@ Using the git add command allows you to add the files seperately and even choose
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Use branches to try out tentative features while keeping a working master branch. Then later they can be merged with the master branch. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams show each commit and it's parent. It is also easy to see the seperation of the branches because they have arrows to their parents which show the beginning of a fork. It is essentially a tree diagram and you can easyily distinguish branches of a tree because of the spacial differences.
