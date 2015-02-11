@@ -23,3 +23,13 @@ The diagrams show each commit and it's parent. It is also easy to see the
 seperation of the branches because they have arrows to their parents which
 show the beginning of a fork. It is essentially a tree diagram and you can
 easily distinguish branches of a tree because of the spacial differences.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a combination of the changes
+made in both branches. The diagram shows that the new commit takes both of the
+branch tips as it's parents and the new commit becomes the head and the tip of
+master. This makes sense to display it as two arrows pointing to both parents
+because code was taken a merged from both tips.
+
+
