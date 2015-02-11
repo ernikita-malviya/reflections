@@ -9,3 +9,10 @@ How is the staging area different from the working directory and the repository?
 
 The staging area allows you to select which files are to be committed. If you make changes to your code and you later realize that they are really logically seperate changes you can commit the changes in multiple commits by using the staging area.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the git add command allows you to add the files seperately and even choose which lines are to be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Use branches to try out tentative features while keeping a working master branch. Then later they can be merged with the master branch. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
