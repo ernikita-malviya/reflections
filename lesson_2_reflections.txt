@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository a hidden directory call .git is created. 
+This directory contains all the information that allows the version control 
+to work. This data has to be stored somewhere so it makes sense to put it 
+in a subdirectory of the topmost directory of your project. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to select which files are to be committed. If you make changes to your code and you later realize that they are really logically seperate changes you can commit the changes in multiple commits by using the staging area.
+
