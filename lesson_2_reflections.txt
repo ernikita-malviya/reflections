@@ -33,3 +33,12 @@ master. This makes sense to display it as two arrows pointing to both parents
 because code was taken a merged from both tips.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Pros:
+Less work. Resolving conflicts is easier than doing entirely manually.
+
+Cons:
+The files being automerged are half changed after conflicted making conflict
+recolution difficult. 
