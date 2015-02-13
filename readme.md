@@ -1,4 +1,4 @@
 # Notes from Udacity Course, "Using Git and Github" 
 
-This is a repository containing my reflections from the [https://www.udacity.com/course/ud775]("Using Git and Github") Udacity Course.
+This is a repository containing my reflections from the [Using Git and Github](https://www.udacity.com/course/ud775) Udacity Course.
 
