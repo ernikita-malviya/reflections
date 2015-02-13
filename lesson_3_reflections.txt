@@ -28,6 +28,12 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 be harder?
 
 Without github you would have to do alot more reading of others code. You could still use a 
-diff tool but you would probably create version manually by copying full directories of code 
-for every major change. This would be a lot harder.
+diff tool but you would probably create version manually by copying full directories of 
+code for every major change. This would be a lot harder.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+Branches can be used for many things including, production releases, development builds,
+release preperation, hotfixes, individual features, and more.
 
